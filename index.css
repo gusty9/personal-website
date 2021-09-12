@@ -1,0 +1,127 @@
+#header_img {
+    max-width:100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header_content {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+body{
+    background-color: black;
+    color: lightgray;
+}
+
+#home {
+    background-image: url("home_image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    -webkit-background-size: cover !important;
+   height: 100vh;
+}
+
+#header_wrapper {
+    position: relative;
+    top: 35%;
+}
+
+#name {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+}
+
+#name_subheader {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+}
+
+.header {
+    text-align: center;
+}
+
+.section_header {
+    color: orangered;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+}
+
+.section_subheader {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+}
+
+.section_text {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 200;
+}
+
+a {
+    color: inherit;
+}
+
+.rounded {
+    object-fit: cover;
+    border-radius: 15% !important;
+    width: 250px;
+    height: 250px;
+}
+
+.about_info {
+    display: flex;
+}
+
+.right{
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.navbar {
+    position: absolute;
+    background: transparent;
+}
+
+.btn {
+    color: darkslategrey;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+}
+
+.about_info p {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+#social li {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#courses {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 200;
+}
+
+
+.container-fluid {
+    padding:0 ! important;
+}
+
+img {
+    max-width:100%;
+}
+
+ul {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 200;
+}
