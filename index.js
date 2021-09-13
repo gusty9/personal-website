@@ -34,4 +34,19 @@ $('document').ready(function(){
                 }
             }
         });
+    $(window).scroll(function(){
+        let screenheight = $(this).height()
+        let fadetime = 300;
+        console.log(screenheight);
+        console.log($(this).scrollTop());
+        if ($(this).scrollTop() > screenheight * .9) {
+            $('.navbar').addClass('filled_nav');
+            $('.navbar').show(fadetime)
+        } else if ($(this).scrollTop() > screenheight * 0.25) {
+            $('.navbar').hide(fadetime)
+        } else {
+            $('.navbar').removeClass('filled_nav');
+            $('.navbar').show(fadetime)
+        }
+    });
 });

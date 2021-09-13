@@ -96,6 +96,8 @@ a:hover {
 .navbar {
     position: fixed;
     background: transparent;
+    width: 100%;
+    z-index: 1030;
 }
 
 .btn {
@@ -137,4 +139,8 @@ img {
 ul {
     font-family: 'Inconsolata', monospace;
     font-weight: 200;
+}
+
+.filled_nav {
+    background: darkgray;
 }
