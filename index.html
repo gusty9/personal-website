@@ -14,16 +14,16 @@
 </head>
 <body>
 
+<nav class="navbar justify-content-between container mx-5 px-5">
+    <a class="btn" href="#home">Home</a>
+    <a class="btn" href="#about">About</a>
+    <a class="btn" href="#resume">Work Experience</a>
+    <a class="btn" href="#courses">Education</a>
+    <a class="btn" href="#projects">Projects</a>
+    <a class="btn" href="#activities">Activities</a>
+</nav>
+
 <header id="home">
-    <nav class="navbar justify-content-between container mx-5">
-        <div></div>
-        <button class="btn">Home</button>
-        <button class="btn">About</button>
-        <button class="btn">Work Experience</button>
-        <button class="btn">Education</button>
-        <button class="btn">Activities</button>
-        <div></div>
-    </nav>
     <div class="container-fluid" id="header_wrapper">
         <div class="jumbotron jumbotron-fluid" id="header_content">
             <div class="container">
@@ -61,7 +61,7 @@
         <h5 id="about_header" class="section_header">About</h5>
         <h1 class="section_subheader">Allow me to introduce myself...</h1>
         <div class="about_info px-5 mx-5">
-            <img src="profile.jpg" class="rounded">
+            <img src="images/profile.jpg" class="rounded">
             <p class="section_text p-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -82,7 +82,7 @@
     <div class="work_item py-3">
         <div class="row">
             <div class="col-4">
-                <img src="ti.png">
+                <img src="images/ti.png" class="rounded">
             </div>
             <div class="col-8">
                 <div class="row left">
@@ -156,14 +156,14 @@
                 </div>
             </div>
             <div class="col-4">
-                <img src="osu.png">
+                <img src="images/osu.png" class="rounded">
             </div>
         </div>
 
         <div class="work_item py-3">
             <div class="row">
                 <div class="col-4">
-                    <img src="pnc.png">
+                    <img src="images/pnc.png" class="rounded">
                 </div>
                 <div class="col-8">
                     <div class="row left">
@@ -235,7 +235,7 @@
                 </div>
             </div>
             <div class="col-4">
-                <img src="kts.png">
+                <img src="images/kts.jpg" class="rounded">
             </div>
         </div>
     </div>
@@ -246,7 +246,7 @@
         <h5 id="course_header" class="section_header">Education</h5>
         <h1 class="section_subheader">A summary of my education history...</h1>
     </div>
-    <div class="row pt-3">
+    <div class="row pt-5">
         <div class="row">
             <div class="col-6">
                 <h5 class="section_subheader left">The Ohio State University, Columbus, OH</h5>
@@ -638,6 +638,45 @@
 
 </section>
 
+<section id="projects" class="container p-5 header">
+    <div class="row">
+        <h5 id="projects_header" class="section_header">Projects</h5>
+        <h1 class="section_subheader">What I'm working on...</h1>
+    </div>
+    <div class="row justify-content-between pt-5">
+        <div class="col-3 card">
+            <a href="https://github.com/gusty9/SoniTalk">
+                <img class="card-img-top pt-2" src="images/sonitalk.png">
+                <div class="card-body">
+                    <h5 class="card-title">SoniTalk Android SDK</h5>
+                    <p class="card-text">Made modifications to the open source SoniTalk project during my reasearch at OSU</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-3 card">
+            <a href="https://github.com/gusty9/OSUArouseRadio">
+                <img class="card-img-top pt-2" src="images/arouse.png">
+                <div class="card-body">
+                    <h5 class="card-title">Arouse Radio App</h5>
+                    <p class="card-text">Radio station app I created while volunteering with Code that Cares</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-3 card">
+            <a href="https://github.com/gusty9/OSUArouseRadio">
+                <img class="card-img-top pt-2" src="images/personal.png">
+                <div class="card-body">
+                    <h5 class="card-title">Personal Website</h5>
+                    <p class="card-text">My own personal website I keep up to date</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+
 <section id="activities" class="container p-5 header">
     <div class="row">
         <h5 id="activities_header" class="section_header">Activities</h5>
@@ -645,7 +684,7 @@
         <div class="work_item py-3">
             <div class="row">
                 <div class="col-4">
-                    <img src="code_that_cares.png"></img>
+                    <img src="images/code_that_cares.png" class="rounded"></img>
                 </div>
                 <div class="col-8">
                     <div class="row left">
@@ -686,6 +725,8 @@
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="index.js"></script>
 
 </body>
 </html>
