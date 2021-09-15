@@ -1,4 +1,9 @@
 $('document').ready(function(){
+    $('.first-button').on('click', function () {
+
+        $('.animated-icon1').toggleClass('open');
+    });
+
     $('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
