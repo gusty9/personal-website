@@ -23,11 +23,10 @@ body{
 
 #home {
     background-image: url("images/home_image.jpg");
-    background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    -webkit-background-size: cover !important;
-   height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 #header_wrapper {
@@ -142,5 +141,9 @@ ul {
 }
 
 .filled_nav {
-    background: darkgray;
+    background: darkslategrey;
+}
+
+.filled_nav a {
+    color: lightgray;
 }
