@@ -24,15 +24,22 @@ body{
 #home {
     background-image: url("images/home_image.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    -webkit-background-size: cover !important;
+   height: 100vh;
+}
+
+@media (max-width: 992px) {
+    #home {
+        background-position: center;
+    }
 }
 
 #header_wrapper {
     position: relative;
     top: 35%;
 }
+
+
 
 #name {
     font-family: 'Inconsolata', monospace;
