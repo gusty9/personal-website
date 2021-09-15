@@ -108,6 +108,14 @@ a:hover {
     font-weight: 600;
 }
 
+.card a{
+    display: block;
+}
+
+.card:hover {
+    box-shadow: 0 0 12px rgba(255, 255, 255, .5);
+}
+
 .about_info p {
     text-align: left;
     margin-top: auto;
