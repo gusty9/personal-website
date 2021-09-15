@@ -34,19 +34,20 @@ $('document').ready(function(){
                 }
             }
         });
+    on_scroll($(window).scrollTop(), $(window).height(), 300);
     $(window).scroll(function(){
-        let screenheight = $(this).height()
-        let fadetime = 300;
-        console.log(screenheight);
-        console.log($(this).scrollTop());
-        if ($(this).scrollTop() > screenheight * .9) {
+        on_scroll($(this).scrollTop(), $(this).height(), 300);
+    });
+
+    function on_scroll(scrollTop, screenHeight, fadetime) {
+        if (scrollTop > screenHeight * .9) {
             $('.navbar').addClass('filled_nav');
             $('.navbar').show(fadetime)
-        } else if ($(this).scrollTop() > screenheight * 0.25) {
+        } else if ($(this).scrollTop() > screenHeight * 0.25) {
             $('.navbar').hide(fadetime)
         } else {
             $('.navbar').removeClass('filled_nav');
             $('.navbar').show(fadetime)
         }
-    });
+    }
 });
