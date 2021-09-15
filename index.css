@@ -40,7 +40,6 @@ body{
 }
 
 
-
 #name {
     font-family: 'Inconsolata', monospace;
     font-weight: 600;
@@ -102,6 +101,17 @@ a:hover {
     z-index: 1030;
 }
 
+@media (max-width: 992px) {
+    .navbar-expand-lg {
+        background: lightgray;
+        opacity: 0.7;
+    }
+}
+
+.navbar-toggler {
+    margin-left: 20px;
+}
+
 .btn {
     color: darkslategrey;
     font-family: 'Inconsolata', monospace;
@@ -153,8 +163,10 @@ ul {
 
 .filled_nav {
     background: darkslategrey;
+    opacity: 1;
 }
 
 .filled_nav a {
     color: lightgray;
+
 }
