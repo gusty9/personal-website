@@ -60,6 +60,14 @@ body{
     font-weight: 300;
 }
 
+.progress-bar{
+    background-color: orangered;
+}
+
+.progress {
+    background-color: lightgray;
+}
+
 .section_subheader {
     font-family: 'Inconsolata', monospace;
     font-weight: 600;
